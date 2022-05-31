@@ -1,0 +1,184 @@
+.nav-background{
+    background-color: rgb(64, 108, 173);
+}
+
+.text-color{
+    color: #fff;
+}
+
+ul {
+    li{
+        a{
+            color: #fff;
+        }
+    }
+}
+
+ul {
+    li{
+        a:hover{
+            color: rgb(10, 10, 10);
+        }
+    }
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 35rem;
+}
+
+.carousel-inner{
+    border: 12px solid rgb(70, 155, 120);
+    border-radius: 7px;
+}
+
+.choice-bg{
+    background-image: linear-gradient(rgb(46, 46, 131), gray);
+    h1{
+        padding-top: 10px;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+}
+
+.side-nav-card{
+    border: 1px solid silver;
+}
+
+.link{
+    list-style: none;
+    padding: 13px 0 13px 0;
+    border-bottom: 1px solid silver;
+    .links{
+        text-decoration: none;
+        padding-left: 10px;
+        // color: #000;
+    }
+
+    .link-header{
+        font-weight: 600;
+        font-size: 20px;
+        color: #000;
+    }
+}
+
+.link-bg{
+    background-color: rgb(177, 186, 197);
+}
+
+.li{
+    cursor: pointer;
+}
+
+.side-nav-card .li:hover{
+    text-decoration: underline;
+}
+
+.contain-center{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 100%;
+}
+
+.btn-view{
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: rgb(41, 236, 41);
+    margin-right: 1rem;
+    color: #fff;
+}
+.btn-cart{
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: rgb(39, 17, 245);
+    color: #fff;
+}
+
+.show-card:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.phone-rating{
+    display: flex;
+}
+
+.left-padding{
+    padding-left: 8px;
+}
+
+.auctioned-btn{
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(39, 17, 245);
+    color: #fff;
+}
+
+.footer{
+    background-color: #405775;
+}
+
+.footer-text-color{
+    color: #fff;
+}
+
+.txt-color{
+    color: #fff;
+    text-decoration: none;
+}
+
+.txt-color:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-item img{
+        width: 100%;
+        height: 12rem;
+    }
+
+    .card-body .contain-center img{
+        max-width: 80%;
+    }
+
+    .btn-view{
+        margin-bottom: 6px;
+    }
+
+    .contain-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 15rem;
+        width: 100%;
+    }
+
+    .auctioned-btn{
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recent-post{
+        display: none;
+    }
+    .resend-display{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .resend-display{
+        display: none;
+    }
+}
